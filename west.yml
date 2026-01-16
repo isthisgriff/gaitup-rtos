@@ -4,19 +4,12 @@ manifest:
   remotes:
     - name: zephyrproject-rtos
       url-base: https://github.com/zephyrproject-rtos
-    - name: nordic
-      url-base: https://github.com/nrfconnect
 
   projects:
     - name: zephyr
       remote: zephyrproject-rtos
       revision: v3.6.0
       path: zephyr
-
-    - name: hal_nordic
-      remote: nordic
-      revision: v3.6.0
-      path: modules/hal/nordic
 
   self:
     path: .

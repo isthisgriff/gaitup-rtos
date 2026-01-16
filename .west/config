@@ -1,0 +1,4 @@
+[manifest]
+path = gaitup-rtos
+file = west.yml
+
