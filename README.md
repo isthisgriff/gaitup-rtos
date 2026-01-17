@@ -60,6 +60,8 @@ west init -l .
 
 west update
 
+pip install -r zephyr/scripts/requirements.txt
+
 ```
 
 *this might take a few minutes depending on update size*
